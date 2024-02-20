@@ -1,4 +1,4 @@
-module github.com/chessnok/GoCalculator
+module github.com/BlackfireZZZ
 
 go 1.21.1
 
