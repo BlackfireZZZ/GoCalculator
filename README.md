@@ -49,5 +49,4 @@
 
 ### Contact me
 
-- [Telegram](https://t.me/mikhailfadin)
-- [Email](mailto:fadin.edu@gmail.com)
+- [Telegram](https://t.me/Blackfire112358)
