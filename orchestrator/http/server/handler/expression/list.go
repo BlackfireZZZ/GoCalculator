@@ -1,8 +1,7 @@
 package expression
 
 import (
-	"github.com/chessnok/GoCalculator/orchestrator/internal/db/table"
-	"github.com/labstack/echo/v4"
+	"github.com/BlackfireZZZ/GoCalculator/orchestrator/internal/db/table"
 )
 
 func GetListExpressionsHandler(postgres *table.Expressions) echo.HandlerFunc {

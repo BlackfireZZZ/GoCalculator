@@ -1,8 +1,8 @@
 package application
 
 import (
-	"github.com/chessnok/GoCalculator/agent/pkg/calculator"
-	"github.com/chessnok/GoCalculator/orchestrator/pkg/rabbit"
+	"github.com/BlackfireZZZ/GoCalculator/agent/pkg/calculator"
+	"github.com/BlackfireZZZ/GoCalculator/orchestrator/pkg/rabbit"
 )
 
 type Config struct {

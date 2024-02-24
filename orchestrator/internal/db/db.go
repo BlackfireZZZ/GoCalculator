@@ -3,7 +3,7 @@ package db
 import (
 	"database/sql"
 	"fmt"
-	"github.com/chessnok/GoCalculator/orchestrator/internal/db/table"
+	"github.com/BlackfireZZZ/GoCalculator/orchestrator/internal/db/table"
 	_ "github.com/lib/pq"
 	"github.com/streadway/amqp"
 )

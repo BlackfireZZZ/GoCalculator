@@ -2,7 +2,7 @@ package main
 
 import (
 	"context"
-	"github.com/chessnok/GoCalculator/orchestrator/internal/application"
+	"github.com/BlackfireZZZ/GoCalculator/orchestrator/internal/application"
 	"log"
 	"os"
 )

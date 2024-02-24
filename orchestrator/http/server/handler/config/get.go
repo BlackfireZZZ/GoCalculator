@@ -1,8 +1,7 @@
 package config
 
 import (
-	"github.com/chessnok/GoCalculator/agent/pkg/calculator"
-	"github.com/labstack/echo/v4"
+	"github.com/BlackfireZZZ/GoCalculator/agent/pkg/calculator"
 )
 
 func GetConfigRequestHandler(config *calculator.Config) echo.HandlerFunc {

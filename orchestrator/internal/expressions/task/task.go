@@ -1,7 +1,7 @@
 package task
 
 import (
-	"github.com/chessnok/GoCalculator/orchestrator/internal/expressions/structure"
+	"github.com/BlackfireZZZ/GoCalculator/orchestrator/internal/expressions/structure"
 	"github.com/google/uuid"
 	"strconv"
 )

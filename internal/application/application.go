@@ -2,7 +2,7 @@ package application
 
 import (
 	"context"
-	"github.com/chessnok/GoCalculator/http/server"
+	"github.com/BlackfireZZZ/GoCalculator/http/server"
 	"os"
 	"os/signal"
 )

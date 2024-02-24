@@ -2,9 +2,9 @@ package application
 
 import (
 	"context"
-	server "github.com/chessnok/GoCalculator/agent/http"
-	"github.com/chessnok/GoCalculator/agent/pkg/calculator"
-	queue2 "github.com/chessnok/GoCalculator/orchestrator/pkg/rabbit/queue"
+	server "github.com/BlackfireZZZ/GoCalculator/agent/http"
+	"github.com/BlackfireZZZ/GoCalculator/agent/pkg/calculator"
+	queue2 "github.com/BlackfireZZZ/GoCalculator/orchestrator/pkg/rabbit/queue"
 	"github.com/streadway/amqp"
 	"log"
 	"os"

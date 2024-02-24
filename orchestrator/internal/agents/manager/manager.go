@@ -2,10 +2,10 @@ package manager
 
 import (
 	"context"
-	"github.com/chessnok/GoCalculator/agent/pkg/calculator"
-	"github.com/chessnok/GoCalculator/orchestrator/internal/agents"
-	"github.com/chessnok/GoCalculator/orchestrator/internal/agents/manager/http"
-	"github.com/chessnok/GoCalculator/orchestrator/internal/db/table"
+	"github.com/BlackfireZZZ/GoCalculator/agent/pkg/calculator"
+	"github.com/BlackfireZZZ/GoCalculator/orchestrator/internal/agents"
+	"github.com/BlackfireZZZ/GoCalculator/orchestrator/internal/agents/manager/http"
+	"github.com/BlackfireZZZ/GoCalculator/orchestrator/internal/db/table"
 	"log"
 	"sync"
 	"time"

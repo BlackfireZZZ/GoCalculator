@@ -2,7 +2,7 @@ package server
 
 import (
 	"errors"
-	"github.com/chessnok/GoCalculator/agent/http/handler"
+	"github.com/BlackfireZZZ/GoCalculator/agent/http/handler"
 	"github.com/labstack/echo"
 	"strconv"
 )

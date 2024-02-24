@@ -1,7 +1,7 @@
 package expressions
 
 import (
-	"github.com/chessnok/GoCalculator/orchestrator/internal/expressions/task"
+	"github.com/BlackfireZZZ/GoCalculator/orchestrator/internal/expressions/task"
 	"github.com/google/uuid"
 	"strings"
 	"time"

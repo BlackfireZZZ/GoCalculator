@@ -1,7 +1,7 @@
 package server
 
 import (
-	"github.com/chessnok/GoCalculator/agent/pkg/calculator"
+	"github.com/BlackfireZZZ/GoCalculator/agent/pkg/calculator"
 )
 
 // Config is a struct that contains the configuration for the server

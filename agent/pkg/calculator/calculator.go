@@ -2,8 +2,8 @@ package calculator
 
 import (
 	"errors"
-	"github.com/chessnok/GoCalculator/agent/internal/message"
-	"github.com/chessnok/GoCalculator/orchestrator/pkg/rabbit/queue"
+	"github.com/BlackfireZZZ/GoCalculator/agent/internal/message"
+	"github.com/BlackfireZZZ/GoCalculator/orchestrator/pkg/rabbit/queue"
 	"github.com/streadway/amqp"
 	"sync"
 )

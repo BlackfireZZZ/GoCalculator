@@ -2,7 +2,7 @@ package task
 
 import (
 	"errors"
-	"github.com/chessnok/GoCalculator/orchestrator/internal/expressions/structure"
+	"github.com/BlackfireZZZ/GoCalculator/orchestrator/internal/expressions/structure"
 )
 
 var (

@@ -4,7 +4,7 @@ import (
 	"bytes"
 	"context"
 	"encoding/json"
-	"github.com/chessnok/GoCalculator/agent/pkg/calculator"
+	"github.com/BlackfireZZZ/GoCalculator/agent/pkg/calculator"
 	"io"
 	"net/http"
 	"time"

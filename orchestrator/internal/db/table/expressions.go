@@ -2,7 +2,7 @@ package table
 
 import (
 	"database/sql"
-	"github.com/chessnok/GoCalculator/orchestrator/internal/expressions"
+	"github.com/BlackfireZZZ/GoCalculator/orchestrator/internal/expressions"
 )
 
 type Expressions struct {

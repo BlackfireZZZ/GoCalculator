@@ -1,10 +1,9 @@
 package expression
 
 import (
-	"github.com/chessnok/GoCalculator/orchestrator/internal/db"
-	"github.com/chessnok/GoCalculator/orchestrator/internal/expressions"
-	"github.com/chessnok/GoCalculator/orchestrator/pkg/rabbit/queue"
-	"github.com/labstack/echo/v4"
+	"github.com/BlackfireZZZ/GoCalculator/orchestrator/internal/db"
+	"github.com/BlackfireZZZ/GoCalculator/orchestrator/internal/expressions"
+	"github.com/BlackfireZZZ/GoCalculator/orchestrator/pkg/rabbit/queue"
 )
 
 type newExpressionRequest struct {

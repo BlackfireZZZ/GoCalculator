@@ -1,10 +1,10 @@
 package server
 
 import (
-	"github.com/chessnok/GoCalculator/agent/pkg/calculator"
-	"github.com/chessnok/GoCalculator/orchestrator/internal/agents/manager"
-	"github.com/chessnok/GoCalculator/orchestrator/internal/db"
-	"github.com/chessnok/GoCalculator/orchestrator/pkg/rabbit/queue"
+	"github.com/BlackfireZZZ/GoCalculator/agent/pkg/calculator"
+	"github.com/BlackfireZZZ/GoCalculator/orchestrator/internal/agents/manager"
+	"github.com/BlackfireZZZ/GoCalculator/orchestrator/internal/db"
+	"github.com/BlackfireZZZ/GoCalculator/orchestrator/pkg/rabbit/queue"
 )
 
 // Config is a struct that contains the configuration for the server

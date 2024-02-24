@@ -2,10 +2,10 @@ package application
 
 import (
 	"context"
-	"github.com/chessnok/GoCalculator/orchestrator/http/server"
-	"github.com/chessnok/GoCalculator/orchestrator/internal/agents/manager"
-	db2 "github.com/chessnok/GoCalculator/orchestrator/internal/db"
-	"github.com/chessnok/GoCalculator/orchestrator/pkg/rabbit/queue"
+	"github.com/BlackfireZZZ/GoCalculator/orchestrator/http/server"
+	"github.com/BlackfireZZZ/GoCalculator/orchestrator/internal/agents/manager"
+	db2 "github.com/BlackfireZZZ/GoCalculator/orchestrator/internal/db"
+	"github.com/BlackfireZZZ/GoCalculator/orchestrator/pkg/rabbit/queue"
 	"github.com/streadway/amqp"
 	"os"
 	"os/signal"

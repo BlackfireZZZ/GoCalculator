@@ -2,7 +2,7 @@ package table
 
 import (
 	"database/sql"
-	"github.com/chessnok/GoCalculator/orchestrator/internal/agents"
+	"github.com/BlackfireZZZ/GoCalculator/orchestrator/internal/agents"
 	"time"
 )
 
