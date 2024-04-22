@@ -1,0 +1,37 @@
+package db
+
+import (
+	"database/sql"
+	"fmt"
+	"github.com/BlackfireZZZ/GoCalculator/orchestrator/internal/db/table"
+	_ "github.com/lib/pq"
+)
+
+type Postgres struct {
+	db          *sql.DB
+	Agents      *table.Agents
+	Tasks       *table.Tasks
+	Expressions *table.Expressions
+	Users       *table.Users
+}
+
+func NewPostgres(cfg *Config) (*Postgres, error) {
+	db, err := sql.Open("postgres", fmt.Sprintf("host=%s port=%d user=%s password=%s dbname=%s sslmode=disable", cfg.Host, cfg.Port, cfg.Username, cfg.Password, cfg.DB))
+	if err != nil {
+		return nil, err
+	}
+	return &Postgres{
+		db:          db,
+		Agents:      table.NewAgents(db),
+		Tasks:       table.NewTasks(db),
+		Expressions: table.NewExpressions(db),
+		Users:       table.NewUsers(db),
+	}, nil
+}
+
+func (p *Postgres) Close() {
+	if p.db == nil {
+		return
+	}
+	p.db.Close()
+}
