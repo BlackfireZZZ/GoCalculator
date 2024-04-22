@@ -2,6 +2,9 @@
 
 ## Installation
 
+Frontend is not working properly now, I'll fix it soon. 
+Now ypu can use [Postman](https://elements.getpostman.com/redirect?entityId=31283519-ce5c1d63-8bc0-4afc-9d88-c30f09862afc&entityType=collection) to test the project)
+
 1. Rename all files in env folder from `env.service_name.example` to `.env.service_name`
 2. Run `docker-compose up -d`
 3. Run `go run orchestrator/cmd/main.go`
